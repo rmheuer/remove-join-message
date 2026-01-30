@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.github.rmheuer.rjm.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "PlayerListMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
